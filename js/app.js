@@ -92,7 +92,7 @@ function sumArray(sumArr) { //eslint-disable-line
   return [sumOfAll, `${sumArr} was passed in as an array of numbers, and ${sumOfAll} is their sum.`];
 }
 
-console.log(sumArray([3, 4, 5]));
+// console.log(sumArray([3, 4, 5]));
 
 // Here is the test for sumArray(); uncomment it to run it
 
