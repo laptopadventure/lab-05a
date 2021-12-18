@@ -9,12 +9,12 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-  let sum = a + b
-  let message = `The sum of ${a} and ${b} is ${sum}.`
-  return [sum, message]
+  let sum = a + b;
+  let message = `The sum of ${a} and ${b} is ${sum}.`;
+  return [sum, message];
 }
 
-// console.log(sum(6, 12))
+// console.log(sum(6, 12));
 
 // Here is the test for sum(); uncomment it to run it
 // testSum(4, 7);
@@ -31,8 +31,12 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+  let product = a * b;
+  let message = `The product of ${a} and ${b} is ${product}.`;
+  return [product, message];
 }
+
+// console.log(multiply(3, 4));
 
 // Here is the test for multiply(); uncomment it to run it
 // testMultiply(5,9);
@@ -101,7 +105,7 @@ function multiplyArray(multArr) { //eslint-disable-line
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyArray(testArray);
 
-// Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
+// Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop.
 
 // You're done! Submit the link to the repo following the instructions in Canvas. Or, try out the stretch goal below...
 
